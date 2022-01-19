@@ -1,4 +1,4 @@
-# Projet stats
+# Project STAT3
 # CHAIMA BOUCHENAK
 # M2 DLAD
 ################################# Load libraries ################################
@@ -188,3 +188,7 @@ plt.plot(train_sizes, test_scores_mean, 'o-', color="g", label="Cross-validation
 # shows error from 0 to 1.1
 plt.ylim(0,1.1)
 plt.show()
+
+
+if __name__ == "__main__":
+    main()
