@@ -1,4 +1,4 @@
-~ MACHINE LEARNING PROJECT ~
+# ~ MACHINE LEARNING PROJECT ~
 Use different ML algorithns on real gene expression RNS-seq Dataset for the Preciction of the type of cancer .
 
 ==========================================
@@ -66,22 +66,22 @@ On terminal run :
 ```
 python main.py
 ```
-The algorhitms that was tested are : 
+## The algorhitms that was tested are : 
 
-## Random Forest Classifier
+### Random Forest Classifier
 
 
-## Logistic Regression (LR)
+### Logistic Regression (LR)
 
 
 Logistic regression is used to predict the categorical placement of the different types of cancer from the TCGA project. I created the Logistic_Regression.py script to predict the accuracy score of the classification of the different types of cancer of the TCGA project 
 
-## GaussianNB (NB)
+### GaussianNB (NB)
 
-## Decision Trees Classifier (CART)
+### Decision Trees Classifier (CART)
 
 Decision tree (DT) is a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the characteristics of TCGA data that contains discrete target variables. for that I implemented a Decision_Tree.py script
 
-## Support Vector Machine (SVM)
+### Support Vector Machine (SVM)
 
 
