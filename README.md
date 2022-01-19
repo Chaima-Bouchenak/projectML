@@ -19,7 +19,7 @@ The objective of the dataset is to predict which kind of cancer a patient has, b
 You can learn more about this dataset description at the UCI Data Repository : https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq
 
 ==> "data.csv": genetic expression of 20531 genes of 800 patients.
-==> "labels.csv": the type of cancer of 800 patients.
+& "labels.csv": the type of cancer of 800 patients.
 
 There is 5 types of cancer : 
 
@@ -56,10 +56,7 @@ or with the requirement.txt file :
 pip install -r requirements.txt (to install all dependencies)
 ```
 
-
-## Running
-------------------------
-On terminal run : 
+4- Running , On terminal run : 
 ```
 python main.py
 ```
