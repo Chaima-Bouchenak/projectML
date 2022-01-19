@@ -1,16 +1,14 @@
 # ~ MACHINE LEARNING PROJECT ~
 Use different ML algorithns on real gene expression RNS-seq Dataset for the Preciction of the type of cancer .
 
-==========================================
-
 ## Project description
-------------------------
+
 In this project, 4 machine learning models to be used for cancer prediction were constructed using genes that encode human proteins 20531. More precisely, we predict the class of 5 cancers LUAD, COAD, PRAD, KIRC and BRCA, respectively breast cancer, kidney and kidney cancer, colorectal cancer, lung cancer and prostate cancer according to the level of expression of these genes in 801 individuals (RNA-Seq).
 
 Implemented and used on the Pima Indians Diabeties Data set to predict whether or not the patients in the dataset have diabetes.
 
+
 ## Data descreption
-------------------------
 
 The dataset we will use in our Project is the gene expression cancer RNA-Seq Data Set . 
 
@@ -36,9 +34,7 @@ There is 5 types of cancer :
 -> COAD: Colon Adenocarcinoma
 
 
-
 ## uplaoding the project
-------------------------
 
 1- Press code (top right button) and select Download ZIP
 Once the repository is downloaded unzip the projectML.zip folder and extract it to the folder you want.
@@ -60,12 +56,15 @@ or with the requirement.txt file :
 pip install -r requirements.txt (to install all dependencies)
 ```
 
+
 ## Running
 ------------------------
 On terminal run : 
 ```
 python main.py
 ```
+
+
 ## The algorhitms that was tested are : 
 
 ### Random Forest Classifier
