@@ -65,19 +65,17 @@ python main.py
 ## The algorhitms that was tested are : 
 
 ### Random Forest Classifier
-
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
 
 ### Logistic Regression (LR)
+the multinomial logistic regression algorithm is an extension to the logistic regression model that involves changing the loss function to cross-entropy loss and predict probability distribution to a multinomial probability distribution to natively support multi-class classification problems.
 
-
-Logistic regression is used to predict the categorical placement of the different types of cancer from the TCGA project. I created the Logistic_Regression.py script to predict the accuracy score of the classification of the different types of cancer of the TCGA project 
-
-### GaussianNB (NB)
+### Gaussian Naive Bayes (NB)
+It is a Supervised Learning algorithm used for classification. It is particularly useful for text classification problems. The naive Bayes classifier is based on Bayes' theorem based on conditional probabilities (The probability of an event occurring knowing that another event has already occurred).
 
 ### Decision Trees Classifier (CART)
 
-Decision tree (DT) is a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the characteristics of TCGA data that contains discrete target variables. for that I implemented a Decision_Tree.py script
+Decision tree (DT) is a non-parametric supervised learning method used for classification and regression. It uses a decision tree (as a predictive model) to go from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves
 
 ### Support Vector Machine (SVM)
-
-
+A linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes.
