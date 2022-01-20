@@ -33,8 +33,8 @@ import seaborn as sns
 import umap.umap_ as umap
 
 ########################### Import data and labels ############################
-df = pd.read_csv('~/PycharmProjects/projetML/data/data.csv')
-label = pd.read_csv('~/PycharmProjects/projetML/data/labels.csv')
+df = pd.read_csv('./data/data.csv')
+label = pd.read_csv('./data/labels.csv')
 
 ########################### Dimension of dataset ###############################
 print("Dimension of dataset : ", df.shape) # (801, 20532)
